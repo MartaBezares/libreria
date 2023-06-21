@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'london_boutique_personal_usRg';
+    src: url('londonboutique_personal_use_only-webfont.woff2') format('woff2'),
+         url('londonboutique_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+    .logo {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1 {
+        width: 50%;
+        text-align: center;
+        font-size: 32px;
+        color: #333333;
+        font-family: 'london_boutique_personal_usRg';
+    }
+    div {
+        width: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+        div img {
+        width: 50px;
+        height: 50px;
+        }
+
+        main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #E9E9E9;
+        }
+        h2 {
+            color: #333333;
+        }
+        #enlace_texto {
+            text-decoration: none;
+            color: #ED088C;
+        }
+        .formulario-login {
+            width: 100%;
+            justify-content: center;
+            border-bottom: solid 2px #333333;
+        }
+        .btn {
+            background-color: #ffffff;
+            color: #333333;
+        }
+    
+    footer {
+            display: flex;
+            width: 100%;
+            background-color: #FFFFFF;
+        }
+        footer div {
+            width: 30%;
+            justify-content: space-between;
+        }
+        
+        
+    
+    
+    
+    
+    
+        
